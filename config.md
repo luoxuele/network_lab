@@ -31,3 +31,14 @@ cat .git\config
 [branch "main"]
         remote = origin
         merge = refs/heads/main       
+
+
+
+git config --global user.name "luoxuele"
+git config --global user.email "tianchang1994@gmail.com"
+git remote set-url --push origin https://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@github.com/luoxuele/network_lab.git
+git remote set-url origin https://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@github.com/luoxuele/network_lab.git
+
+git add . 
+git commit -m "update_config"
+
