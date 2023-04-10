@@ -1,0 +1,105 @@
+version = 5.7.2
+[vbox 127.0.0.1:16600]
+    workingdir = c:\users\admin\hcl\projects\switch_port_secure\working
+    udp = 10000
+    [[PC PC_2]]
+        device_id = 2
+        bridge_mac = 36-5a-a2-f4-02-00
+        slot0 = PC 250
+        GE_0/1 = S1 GE_0/1
+        symbol = PC
+        x = -461.0
+        y = 49.0
+        z = 5.0
+    [[PC PC_3]]
+        device_id = 3
+        bridge_mac = 36-5a-a6-82-03-00
+        slot0 = PC 250
+        GE_0/1 = S1 GE_0/2
+        symbol = PC
+        x = -160.0
+        y = 49.0
+        z = 5.0
+    [[PC PC_4]]
+        device_id = 4
+        bridge_mac = 36-5a-aa-9b-04-00
+        slot0 = PC 250
+        GE_0/1 = S1 GE_0/3
+        symbol = PC
+        x = 153.0
+        y = 49.0
+        z = 5.0
+    [[S5820V2-54QS-GE S1]]
+        device_id = 1
+        bridge_mac = 36-5a-88-81-01-00
+        slot0 = S5800 384
+        GE_0/1 = PC_2 GE_0/1
+        GE_0/2 = PC_3 GE_0/1
+        GE_0/3 = PC_4 GE_0/1
+        x = -160.0
+        y = -303.0
+        z = 5.0
+[Non-vBox-DATA]
+    workdir = working
+    m11 = 1.5
+    m22 = 1.5
+    [[NOTE 1]]
+        text = "192.168.1.3/24"
+        font = "Arial,14,-1,5,75,0,0,0,0,0"
+        x = 54.0
+        y = 139.5
+        z = 6.0
+    [[NOTE 2]]
+        text = "192.168.1.2/24"
+        font = "Arial,14,-1,5,75,0,0,0,0,0"
+        x = -251.0
+        y = 136.5
+        z = 6.0
+    [[NOTE 3]]
+        text = "192.168.1.1/24"
+        font = "Arial,14,-1,5,75,0,0,0,0,0"
+        x = -530.0
+        y = 151.5
+        z = 6.0
+    [[NOTE 4]]
+        text = "GE_0/1"
+        interface = PC_4 GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = -88.25
+        y = -73.0
+        z = 6.0
+    [[NOTE 5]]
+        text = "GE_0/1"
+        interface = PC_3 GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = 0.0
+        y = -25.0
+        z = 6.0
+    [[NOTE 6]]
+        text = "GE_0/1"
+        interface = PC_2 GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = 65.25
+        y = -73.0
+        z = 6.0
+    [[NOTE 7]]
+        text = "GE_0/3"
+        interface = S1 GE_0/3
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = 89.25
+        y = 82.0
+        z = 6.0
+    [[NOTE 8]]
+        text = "GE_0/2"
+        interface = S1 GE_0/2
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = -9.0
+        y = 76.0
+        z = 6.0
+    [[NOTE 9]]
+        text = "GE_0/1"
+        interface = S1 GE_0/1
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = -128.25
+        y = 94.0
+        z = 6.0

@@ -1,0 +1,57 @@
+version = 5.7.2
+[vbox 127.0.0.1:16600]
+    workingdir = c:\users\admin\hcl\projects\link_aggregation\working
+    udp = 10000
+    [[PC PC_3]]
+        device_id = 3
+        bridge_mac = 34-77-4f-5e-03-00
+        slot0 = PC 250
+        GE_0/1 = S1 GE_0/3
+        symbol = PC
+        x = -353.875
+        y = 60.5
+        z = 5.0
+    [[PC PC_4]]
+        device_id = 4
+        bridge_mac = 34-77-55-3f-04-00
+        slot0 = PC 250
+        GE_0/1 = S2 GE_0/3
+        symbol = PC
+        x = 148.125
+        y = 60.5
+        z = 5.0
+    [[S5820V2-54QS-GE S1]]
+        device_id = 1
+        bridge_mac = 34-77-1a-3a-01-00
+        slot0 = S5800 384
+        GE_0/3 = PC_3 GE_0/1
+        GE_0/1 = S2 GE_0/1
+        GE_0/2 = S2 GE_0/2
+        x = -355.125
+        y = -198.875
+        z = 4.0
+    [[S5820V2-54QS-GE S2]]
+        device_id = 2
+        bridge_mac = 34-77-20-57-02-00
+        slot0 = S5800 384
+        GE_0/3 = PC_4 GE_0/1
+        GE_0/1 = S1 GE_0/1
+        GE_0/2 = S1 GE_0/2
+        x = 146.875
+        y = -198.875
+        z = 4.0
+[Non-vBox-DATA]
+    m11 = 1.5999999999999999
+    m22 = 1.5999999999999999
+    [[NOTE 1]]
+        text = "192.168.1.2/24"
+        font = "Arial,14,-1,5,75,0,0,0,0,0"
+        x = 114.0
+        y = 140.5
+        z = 6.0
+    [[NOTE 2]]
+        text = "192.168.1.1/24"
+        font = "Arial,14,-1,5,75,0,0,0,0,0"
+        x = -421.0
+        y = 142.5
+        z = 6.0
