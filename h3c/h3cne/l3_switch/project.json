@@ -1,0 +1,32 @@
+{
+ "projectInfo": {
+  "name": "l3_switch",
+  "path": "l3_switch",
+  "visibility": "2",
+  "introduction": "",
+  "label": []
+ },
+ "deviceInfoList": [
+  {
+   "resourceName": "S1",
+   "resourceCategory": "交换机",
+   "resourceModel": "S5820V2-54QS-GE",
+   "resourceVersion": "CMW7.1.075-A7571",
+   "configPath": "DeviceConfig\\S1.cfg"
+  },
+  {
+   "resourceName": "PC_2",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\PC_2.cfg"
+  },
+  {
+   "resourceName": "PC_3",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\PC_3.cfg"
+  }
+ ]
+}
