@@ -1,0 +1,39 @@
+{
+ "projectInfo": {
+  "name": "dhcp_server",
+  "path": "dhcp_server",
+  "visibility": "2",
+  "introduction": "",
+  "label": []
+ },
+ "deviceInfoList": [
+  {
+   "resourceName": "R1",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\R1.cfg"
+  },
+  {
+   "resourceName": "S1",
+   "resourceCategory": "交换机",
+   "resourceModel": "S5820V2-54QS-GE",
+   "resourceVersion": "CMW7.1.075-A7571",
+   "configPath": "DeviceConfig\\S1.cfg"
+  },
+  {
+   "resourceName": "PC_3",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\PC_3.cfg"
+  },
+  {
+   "resourceName": "PC_4",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\PC_4.cfg"
+  }
+ ]
+}
