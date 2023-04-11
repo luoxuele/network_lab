@@ -1,0 +1,88 @@
+version = 5.7.2
+[vbox 127.0.0.1:16600]
+    workingdir = c:\users\admin\hcl\projects\ospf\working
+    udp = 10000
+    [[MSR36-20 R1]]
+        device_id = 1
+        bridge_mac = 42-47-2e-8b-01-00
+        slot0 = MSR36 384
+        Ser_1/0 = R2 Ser_3/0
+        x = -324.0
+        y = -119.0
+        z = 5.0
+    [[MSR36-20 R2]]
+        device_id = 2
+        bridge_mac = 42-47-32-4e-02-00
+        slot0 = MSR36 384
+        Ser_1/0 = R3 Ser_1/0
+        Ser_2/0 = R3 Ser_2/0
+        Ser_3/0 = R1 Ser_1/0
+        x = -58.0
+        y = -119.0
+        z = 5.0
+    [[MSR36-20 R3]]
+        device_id = 3
+        bridge_mac = 42-47-38-2b-03-00
+        slot0 = MSR36 384
+        Ser_1/0 = R2 Ser_1/0
+        Ser_2/0 = R2 Ser_2/0
+        x = 252.0
+        y = -119.0
+        z = 5.0
+[Non-vBox-DATA]
+    m11 = 1.2
+    m22 = 1.2
+    [[NOTE 1]]
+        text = "192.168.2.0/24"
+        font = "Arial,14,-1,5,75,0,0,0,0,0"
+        x = 90.16666666666667
+        y = -183.83333333333334
+        z = 6.0
+    [[NOTE 2]]
+        text = "192.168.1.0/24"
+        font = "Arial,14,-1,5,75,0,0,0,0,0"
+        x = -246.50000000000003
+        y = -155.5
+        z = 6.0
+    [[NOTE 3]]
+        text = "Ser_2/0"
+        interface = MSR36-20_3 Ser_2/0
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = -87.5
+        y = 40.0
+        z = 6.0
+    [[NOTE 4]]
+        text = "Ser_1/0"
+        interface = MSR36-20_3 Ser_1/0
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = -87.5
+        y = 15.0
+        z = 6.0
+    [[NOTE 5]]
+        text = "Ser_3/0"
+        interface = MSR36-20_2 Ser_3/0
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = -76.5
+        y = 15.0
+        z = 6.0
+    [[NOTE 6]]
+        text = "Ser_2/0"
+        interface = MSR36-20_2 Ser_2/0
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = 67.5
+        y = 40.0
+        z = 6.0
+    [[NOTE 7]]
+        text = "Ser_1/0"
+        interface = MSR36-20_2 Ser_1/0
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = 67.5
+        y = 15.0
+        z = 6.0
+    [[NOTE 8]]
+        text = "Ser_1/0"
+        interface = MSR36-20_1 Ser_1/0
+        font = "Arial,10,-1,5,50,0,0,0,0,0"
+        x = 56.5
+        y = 15.0
+        z = 6.0
