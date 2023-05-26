@@ -8,32 +8,32 @@
  },
  "deviceInfoList": [
   {
-   "resourceName": "PC_3",
+   "resourceName": "VPCS_6",
    "resourceCategory": "终端",
-   "resourceModel": "PC",
+   "resourceModel": "VPCS",
    "resourceVersion": "",
-   "configPath": "DeviceConfig\\PC_3.cfg"
+   "configPath": "DeviceConfig\\VPCS_6\\startup.vpc"
   },
   {
-   "resourceName": "PC_4",
+   "resourceName": "VPCS_5",
    "resourceCategory": "终端",
-   "resourceModel": "PC",
+   "resourceModel": "VPCS",
    "resourceVersion": "",
-   "configPath": "DeviceConfig\\PC_4.cfg"
+   "configPath": "DeviceConfig\\VPCS_5\\startup.vpc"
   },
   {
-   "resourceName": "PC_5",
+   "resourceName": "VPCS_4",
    "resourceCategory": "终端",
-   "resourceModel": "PC",
+   "resourceModel": "VPCS",
    "resourceVersion": "",
-   "configPath": "DeviceConfig\\PC_5.cfg"
+   "configPath": "DeviceConfig\\VPCS_4\\startup.vpc"
   },
   {
-   "resourceName": "PC_6",
+   "resourceName": "VPCS_3",
    "resourceCategory": "终端",
-   "resourceModel": "PC",
+   "resourceModel": "VPCS",
    "resourceVersion": "",
-   "configPath": "DeviceConfig\\PC_6.cfg"
+   "configPath": "DeviceConfig\\VPCS_3\\startup.vpc"
   },
   {
    "resourceName": "S2",
