@@ -1,6 +1,6 @@
 # 实验目标
 
-配置password-control相关策略
+    配置password-control相关策略
 
 
 
